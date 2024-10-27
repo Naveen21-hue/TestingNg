@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumDevSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SeleniumDevTest(failed)">
+    <parameter name="url" value="https://www.selenium.dev/"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testngautomationtest.SeleniumDevTest">
+        <methods>
+          <include name="SeleniumDevTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testngautomationtest.SeleniumDevTest -->
+    </classes>
+  </test> <!-- SeleniumDevTest(failed) -->
+</suite> <!-- Failed suite [SeleniumDevSuite] -->
