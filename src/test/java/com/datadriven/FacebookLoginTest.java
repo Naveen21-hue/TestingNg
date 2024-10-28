@@ -36,11 +36,11 @@ public class FacebookLoginTest {
 		data[0][0]="kaithepalli@gmail.com";
 		data[0][1]="Naveen@123";
 		
-		data[1][0]="kaithepalli@gmail.com";
-		data[1][1]="Naveen@123";
+		data[1][0]="kaithepallinaveen@gmail.com";
+		data[1][1]="Naveen@234";
 		
 		data[2][0]="9542570889";
-		data[2][1]="Naveen@343";
+		data[2][1]="Naveen@123";
 		return data;
 		
 				
